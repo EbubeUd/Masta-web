@@ -1,0 +1,487 @@
+
+            body a,
+            .dark-link:hover,
+            .dark-link:focus,
+            .dark-link:visited,
+            .menu-style-fixed #header.visible-header .header-top a:not(.btn):hover,
+            .menu-style-fixed #header .main-menu.top-menu > li > a:not(.btn):hover,
+            .blog-title a:hover,
+            a.blog-logo-text:hover,
+            .main-menu ul.td-mega-menu > li > a,
+            .post-meta a,
+            .post-navigation h4 a:hover,
+            .post-content blockquote:after,
+            .comments-title-link a,
+            .comment-header h4 a:hover,
+            .pingbacklist a:hover,
+            .comments-nav a:hover,
+            .comment-respond form label span,
+            .archive-navigation a:hover,
+            .chosen-container .chosen-results li.highlighted,
+            .btn-dark .btn-icon-holder,
+            .btn-soft-primary,
+            .royaltickets-page-footer a:hover,
+            #wp-calendar thead th,
+            .footer-container #wp-calendar tfoot a,
+            .credits .sep,
+            #menu.background-Light .top-social-links-right a:hover span,
+            .offset-menu li a:hover,
+            .gallery-item a:after,
+            .gallery-item-masonry a:after,
+            .gallery-item-thumnails a:after,
+            .gallery-item-royaltickets a:after,
+            .royaltickets-post-categories a,
+            .posts-navigation .nav-links a,
+            .slick-prev:hover:before,
+            .slick-next:hover:before,
+            .print-email,
+            .royaltickets-side-inner ul li.current_page_item > a,
+            .royaltickets-side-inner ul.sub-menu li.current_page_item > a,
+            .royaltickets-side-inner ul li.current-menu-item > a,
+            .royaltickets-side-inner ul.sub-menu li.current-menu-item > a,
+            form label.error,
+            .owl-nav .owl-prev:hover,
+            .owl-nav .owl-next:hover,
+            .item-agent-container .royaltickets-search-card-body .entry-title a,
+            .item-agency-container .royaltickets-search-card-body .entry-title a,
+            .royaltickets-search-card-body h2 a:hover,
+            .royaltickets-search-card-body-meta a:hover,
+            .royaltickets-post-read-more:hover,
+            .item-agent-container .royaltickets-search-card-body .entry-title.agent-contacts  h5 a:hover,
+            .item-agency-container .royaltickets-search-card-body .entry-title.agency-contacts  h5 a:hover,
+            .royaltickets-search-card-body .entry-title a:hover,
+            royaltickets-search-card-image .royaltickets-search-card-link:hover,
+            #filters li:hover,
+            #filters li.active,
+            ul.royaltickets-accordion li.active h4,
+            ul.royaltickets-accordion li h4:hover,
+            .royaltickets-icon-box-icon,
+            .royaltickets-image-slider .flex-control-paging li a.flex-active span.royaltickets-image-slider-count,
+            .search-toggle.active,
+            .mobile-search .search-button:hover,
+            .event-trailer-cover span.play-video,
+            .event-image-gallery span.expand-image,
+            .schedule-wrapper .accordion-dark-theme .list-group-item:hover .schedule-title,
+            .events-search-form .chosen-container-active .chosen-single span,
+            .menu-color-default .main-menu li.menu-item.current-menu-item:not(.cta-button) > a, 
+            .menu-color-default .main-menu li.page_item.current-menu-item:not(.cta-button) > a,
+            .menu-color-default .main-menu li.menu-item.current_page_item:not(.cta-button) > a, 
+            .menu-color-default .main-menu li.page_item.current_page_item:not(.cta-button) > a,
+            .events-search-form .chosen-container-single .chosen-single:hover span,
+            .events-search-form input.form-control:hover,
+            .event-card .add-to-favorite:hover { 
+                color: #d9072a;
+            }
+
+            .main-menu.top-menu li a:not(.btn):hover,
+            .main-menu.top-menu li:hover > a:not(.btn),
+            .ft-mega-menu .widget ul > li a:hover,
+            .ft-mega-menu .widget ul > li.current_page_item a,
+            .ft-mega-menu .widget ul > li.current-menu-item a,
+            .banner-link:hover,
+            .schedule-background-light .text-white.nav-text .nav-link.active,
+            .schedule-background-light .text-white.nav-text .nav-link:hover,
+            .pagination li:not(.disabled) a:hover,
+            .pagination a.current,
+            .pagination li.active a,
+            #royaltickets_ajax_load_more.pagination a:hover,
+            .page-numbers:hover,
+            .page-numbers.current {
+                color: #d9072a !important;
+            }
+
+            #header .header-main .top-menu li a:hover,
+            .main-menu .royaltickets-cta a,
+            .main-menu .royaltickets-cta-v3 a,
+            .sticky-post,
+            .post-content .page-links a:hover,
+            .page-links > span:nth-of-type(2),
+            .page-links a:hover,
+            .post-tags a:hover,
+            .tagcloud a:hover,
+            .highlight,
+            .post-content input[type='submit'],
+            .post-content input[type='reset'],
+            .post-content input[type='button'],
+            #contact-agent-button,
+            .read-more,
+            .post-content input[type='submit']:hover,
+            .post-content input[type='reset']:hover,
+            .post-content input[type='button']:hover,
+            #contact-agent-button:hover,
+            .read-more:hover,
+            .bypostauthor .comment-author-icon,
+            .comment-respond input[type='submit'],
+            .comment-respond input[type='submit']:hover,
+            #infinite-handle span:hover,
+            .chosen-container .chosen-results li.highlighted:after,
+            .royaltickets-page-wrapper ul.royaltickets-dashboard-menu li a:hover,
+            .royaltickets-page-wrapper ul.royaltickets-dashboard-menu li.active a,
+            .single-add-to-compare,
+            .royaltickets-sidebar-menu .widget_nav_menu ul li.current-menu-item a,
+            .royaltickets-sidebar-menu .widget_nav_menu ul li.current_page_item a,
+            .link-block-post .royaltickets-post-shadow,
+            .site-socket a:after,
+            .site-fullscreen-menu-socket a:after,
+            .top-social-links-right a .fa:after,
+            .royaltickets-link-post-miniblock-header,
+            .royaltickets-post-miniblock-meta p a:after,
+            .royaltickets-post-miniblock-meta-top p a:after,
+            .royaltickets-post-categories a:after,
+            .posts-navigation .nav-links a:after,
+            #royaltickets_ajax_load_more.pagination a,
+            .select2-container--default .select2-results__option--highlighted[aria-selected], 
+            .select2-container--default .select2-results__option--highlighted[data-selected],
+            .select2-container--default .select2-results__option[aria-selected=true], 
+            .select2-container--default .select2-results__option[data-selected=true],
+            .ui-autocomplete li:hover,
+            input[type='submit'],
+            .cluster div:after,
+            .cd-top,
+            .cd-top:hover,
+            .top-menu-icons span.count-wishlist,
+            .top-menu-icons span.count-cart,
+            .royaltickets-search-card-image a .mask,
+            .royaltickets-search-card-image a,
+            .royaltickets-magazine-image-card a:after,
+            .royaltickets-categories-post a,
+            .royaltickets-categories-post span,
+            .royaltickets-post-read-more:hover:after,
+            .royaltickets-section-title h2:after,
+            ul.royaltickets-accordion li i.accordion-arrows:before, 
+            ul.royaltickets-accordion li i.accordion-arrows:after,
+            ul.royaltickets-accordion li.active i.accordion-arrows:before,
+            ul.royaltickets-accordion li.active i.accordion-arrows:after,
+            .royaltickets-progress-bar-progress,
+            .royaltickets-icon-box-centered-alt .royaltickets-icon-box-icon i,
+            .royaltickets-notification-box,
+            .nav-toggle.active .bar,
+            .footer-container .tagcloud a:hover,
+            .royaltickets-qty .plus,
+            .royaltickets-qty .minus,
+            .btn-checkbox input:checked ~ .status-name:before,
+            .btn-checkbox input:checked ~ .status-name,
+            .royaltickets-seat.selected,
+            .ft-tabs-alt ul.nav li a:after,
+            .nav .nav-link:after {
+                background-color: #d9072a;
+            }
+
+            .post-content input[type='submit']:hover,
+            .post-content input[type='reset']:hover,
+            .post-content input[type='button']:hover,
+            #contact-agent-button:hover,
+            .read-more:hover,
+            .post-content input[type='submit']:focus,
+            .post-content input[type='reset']:focus,
+            .post-content input[type='button']:focus,
+            #contact-agent-button:focus,
+            .read-more:focus,
+            .close-royaltickets-product-quick-view-block:hover .fa,
+            .royaltickets-search-card-image .flex-control-paging li a.flex-active,
+            .royaltickets-search-card-image .flex-control-paging li a:hover,
+            .royaltickets-image-slider .flex-control-paging li a.flex-active:before {
+                background-color: #d9072a !important;
+            }
+
+            .main-menu li.menu-item.current-menu-item:not(.cta-button) > a, 
+            .main-menu li.page_item.current-menu-item:not(.cta-button) > a,
+            .main-menu li.menu-item.current_page_item:not(.cta-button) > a, 
+            .main-menu li.page_item.current_page_item:not(.cta-button) > a,
+            .main-menu ul.sub-menu li.menu-item.current-menu-item > a, 
+            .main-menu ul.sub-menu li.page_item.current-menu-item > a,
+            .main-menu ul.sub-menu li.menu-item.current_page_item > a, 
+            .main-menu ul.sub-menu li.page_item.current_page_item > a,
+            .page-links > span:nth-of-type(2),
+            .page-links a:hover,
+            .pingbacks-title,
+            .footer-container .search-field:focus,
+            .cv-description p a:before,
+            .gallery-item a:before,
+            .gallery-item-masonry a:before,
+            .gallery-item-thumnails a:before,
+            .gallery-item-royaltickets a:before,
+            .gallery-item a:hover:before,
+            .gallery-item-masonry a:hover:before,
+            .gallery-item-thumnails a:hover:before,
+            .gallery-item-royaltickets a:hover:before,
+            .footer-social.social-background-light svg:hover,
+            .footer-social.social-background-dark svg:hover,
+            .carousel-thumbnail .slick-slide span:before,
+            .video-play-icon:hover,
+            .cluster div:before,
+            .royaltickets-price-box.featured-royaltickets-price-box,
+            .footer-container .tagcloud a:hover:before,
+            .credits p a:hover,
+            .custom-control-input:checked~.rt-custom-control-label,
+            .royaltickets-seat.selected,
+            .menu-color-default .main-menu li.menu-item.current-menu-item:not(.cta-button) > a, 
+            .menu-color-default .main-menu li.page_item.current-menu-item:not(.cta-button) > a, 
+            .menu-color-default .main-menu li.menu-item.current_page_item:not(.cta-button) > a, 
+            .menu-color-default .main-menu li.page_item.current_page_item:not(.cta-button) > a {
+                border-color: #d9072a;
+            }
+
+            .main-menu > li > a:hover,
+            .main-menu > li:hover > a,
+            ul.royaltickets-accordion li.active h4,
+            ul.royaltickets-accordion li h4:hover {
+                border-color: #d9072a !important;
+            }
+
+            .post-tags a:hover:before,
+            .tagcloud a:hover:before { 
+                border-right-color: #d9072a; 
+            }
+
+            .post-meta a:hover { 
+                border-bottom-color: #d9072a; 
+            }
+
+            .sticky-post:after {
+                border-left-color: #d9072a;
+                border-right-color: #d9072a;
+            }
+
+            .main-menu li:hover > a::after { 
+                border-top-color: #d9072a; 
+            }
+
+            .footer-social.social-background-light svg:hover path,
+            .footer-social.social-background-dark svg:hover path,
+            .royaltickets-arrow-right svg .st0,
+            .post_read_more:hover .royaltickets-arrow-right svg .st0m,
+            .cd-top .st3 {
+                fill: #d9072a;
+            }
+
+            .cd-top .st0 {
+                stroke: #d9072a;
+            }
+
+            .cluster div:before {
+                box-shadow: inset 0 0 0 4px #d9072a;
+            }
+
+        
+
+            body a:hover,
+            a:focus, 
+            a:hover,
+            .main-menu ul.td-mega-menu > li > a:hover,
+            #wp-calendar tfoot a:hover,
+            .credits p a:hover,
+            .royaltickets-post-header a:hover,
+            .royaltickets-post-miniblock-content h2 a:hover,
+            .royaltickets-post-categories a:hover,
+            .posts-navigation .nav-links a:hover,
+            #header .header-main .main-menu > li > ul.sub-menu li.current-menu-item a, 
+            #header .header-main .main-menu > li > ul.sub-menu li.current_page_item a,
+            .widget-link:hover,
+            .side-menu-panel .widget ul li a:hover,
+            .side-menu-panel .widget a:hover,
+            .event-speaker .event-speaker-meta .event-speaker-socials a:hover { 
+                color: #ca0c2a;
+            }
+
+            .flex-direction-nav a:hover:before,
+            .royaltickets-side-inner ul li a:hover,
+            #header .header-main .main-menu > li > ul.sub-menu li:hover > a,
+            #header .header-main .main-menu > li > ul.sub-menu li a:hover,
+            #header.clone-fixed .header-main .main-menu > li:hover:not(.cta-button) > a:not(.btn),
+            #header.clone-fixed .header-main .main-menu > li:not(.cta-button) > a:hover:not(.btn) {
+                color: #ca0c2a !important;
+            }
+
+            .owl-nav .owl-next:hover svg .st3,
+            .owl-nav .owl-prev:hover svg .st3 {
+                fill: #ca0c2a;
+            }
+
+            .royaltickets-qty .plus:hover,
+            .badge-danger:hover,
+            .cd-top {
+                background-color: #ca0c2a;
+            }
+
+        
+
+            .main-menu li.cta-button a {
+                background-color: #d9092b;
+                border-color: #d9092b;
+            }
+
+        
+
+            .main-menu li.cta-button a:hover,
+            .main-menu li.cta-button a:focus {
+                background-color: #ca0c2a;
+                border-color: #ca0c2a;
+            }
+
+        
+
+            .btn-primary,
+            .btn-primary.disabled,
+            .btn-primary:disabled {
+                background-color: #0055ff;
+                border-color: #0055ff;
+            }
+
+        
+
+            .btn-primary:hover,
+            .btn-primary:focus {
+                background-color: #0077ff;
+                border-color: #0077ff;
+            }
+
+        
+
+            .btn-secondary,
+            .btn-secondary.disabled,
+            .btn-secondary:disabled {
+                background-color: #506690;
+                border-color: #506690;
+            }
+
+        
+
+            .btn-secondary:hover,
+            .btn-secondary:focus {
+                background-color: #425577;
+                border-color: #425577;
+            }
+
+        
+
+            .btn-success,
+            .btn-success.disabled,
+            .btn-success:disabled {
+                background-color: #42ba96;
+                border-color: #42ba96;
+            }
+
+        
+
+            .btn-success:hover,
+            .btn-success:focus {
+                background-color: #389e7f;
+                border-color: #389e7f;
+            }
+
+        
+
+            .btn-info,
+            .btn-info.disabled,
+            .btn-info:disabled {
+                background-color: #7c69ef;
+                border-color: #7c69ef;
+            }
+
+        
+
+            .btn-info:hover,
+            .btn-info:focus,
+            .btn-info:not(:disabled):not(.disabled).active,
+            .btn-info:not(:disabled):not(.disabled):active,
+            .show>.btn-info.dropdown-toggle {
+                background-color: #5e46eb;
+                border-color: #5e46eb;
+            }
+
+        
+
+            .btn-warning,
+            .btn-warning.disabled,
+            .btn-warning:disabled,
+            .btn-warning:hover,
+            .btn-warning:focus,
+            .btn-warning:not(:disabled):not(.disabled).active,
+            .btn-warning:not(:disabled):not(.disabled):active,
+            .show>.btn-warning.dropdown-toggle {
+                color: #24262b !important;
+            }
+
+        
+
+            .btn-warning,
+            .btn-warning.disabled,
+            .btn-warning:disabled {
+                background-color: #fad776;
+                border-color: #fad776;
+            }
+
+        
+
+            .btn-warning:hover,
+            .btn-warning:focus,
+            .btn-warning:not(:disabled):not(.disabled).active,
+            .btn-warning:not(:disabled):not(.disabled):active,
+            .show>.btn-warning.dropdown-toggle {
+                background-color: #f9cc51;
+                border-color: #f9cc51;
+            }
+
+        
+
+            .btn-danger,
+            .btn-danger.disabled,
+            .btn-danger:disabled,
+            .badge-danger {
+                background-color: #d9092b;
+                border-color: #d9092b;
+            }
+
+        
+
+            .btn-danger:hover,
+            .btn-danger:focus,
+            .btn-danger:not(:disabled):not(.disabled).active,
+            .btn-danger:not(:disabled):not(.disabled):active,
+            .show>.btn-danger.dropdown-toggle {
+                background-color: #ca0c2a;
+                border-color: #ca0c2a;
+            }
+
+        
+
+            .btn-dark,
+            .btn-dark.disabled,
+            .btn-dark:disabled {
+                background-color: #24262b;
+                border-color: #24262b;
+            }
+
+        
+
+            .btn-dark:hover,
+            .btn-dark:focus {
+                background-color: #111111;
+                border-color: #111111;
+            }
+
+        
+
+            .text-red,
+            .text-danger {
+                color: #d9072a !important;
+            }
+
+        
+
+            .text-orange {
+                color: #ffac61 !important;
+            }
+
+        
+
+            .text-muted {
+                color: #737373 !important;
+            }
+
+        
+
+            .text-muted-alt {
+                color: #aaa7ca !important;
+            }

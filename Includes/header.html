@@ -1,0 +1,826 @@
+
+  <!--#region Header File-->
+      <!-- 1. HEADER FILE STARTS HERE-->
+
+      <div id="favorite-mask" class="favorite-mask"></div>
+      <!-- ========== FAVORITES ========== -->
+      <div id="favorite-controller" class="favorite-panel">
+  
+          <div class="favorite-panel-header mb-4 pt-12 px-8">
+              <i class="close"></i>
+              <h4 class="title">Favorites</h4>
+              <div class="favorite-separator"></div>
+          </div>
+  
+          <div id="favorite-event-basket" class="pb-12 px-8 pt-6">
+              <div class="row">
+  
+              </div>
+          </div>
+  
+      </div>
+      <!-- ========== END FAVORITES ========== -->
+  
+  
+      <div id="side-menu-mask" class="side-menu-mask"></div>
+      <!-- ========== SIDEMENU ========== -->
+      <div id="side-menu-controller" class="side-menu-panel">
+  
+          <div class="side-menu-panel-header mb-4 pt-10 px-8">
+              <i class="close"></i>
+          </div>
+  
+          <div id="side-menu-wrapper" class="pb-8 px-8 pt-6">
+              <div class="row">
+                  <div class="col-12">
+                      <div class="sidebar w-100">
+  
+                          <!-- Sidebar -->
+                          <div class="widget widget_nav_menu mb-8">
+                              <div class="widget-content">
+                                  <div class="widget-title-container">
+                                      <h5 class="mb-5 text-uppercase ls-1">Menu</h5>
+                                  </div>
+                                  <div class="side-menu-separator mb-6">
+  
+                                  </div>
+                                  <div class="menu-about-us-container">
+                                      <ul id="menu-about-us" class="menu">
+                                          <li id="menu-item-6374"
+                                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6374">
+                                              <a href="#">Manage Events</a></li>
+                                         
+                                          <li id="menu-item-350"
+                                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-350">
+                                              <a href="#">Ticketing 101</a></li>
+                                         
+                                          <li id="menu-item-352"
+                                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-352">
+                                              <a href="#">Work With Us</a></li>
+                                      </ul>
+                                  </div>
+                              </div>
+                              <div class="clear">
+  
+                              </div>
+                          </div>
+                          <div class="widget widget_text mb-8">
+                              <div class="widget-content">
+                                  <div class="widget-title-container">
+                                      <h5 class="mb-5 text-uppercase ls-1">Social Network</h5>
+                                  </div>
+                                  <div class="side-menu-separator mb-6"></div>
+                                  <div class="textwidget">
+                                      <p><a class="d-inline-block pr-6 pb-3" href="#"><i
+                                                  class="fab fa-facebook-f"></i></a><a class="d-inline-block pr-6 pb-3"
+                                              href="#"><i class="fab fa-twitter"></i></a><a
+                                              class="d-inline-block pr-6 pb-3" href="#"><i
+                                                  class="fab fa-instagram"></i></a><a class="d-inline-block pr-6 pb-3"
+                                              href="#"><i class="fab fa-youtube"></i></a></p>
+                                  </div>
+                              </div>
+                              <div class="clear"></div>
+                          </div>
+                          <div class="widget widget_text mb-8">
+                              <div class="widget-content">
+                                  <div class="textwidget">
+                                      <p><small class="text-muted">2020 Copyright © RoyalTickets – Events Booking
+                                              WordPress Theme. Made with <i class="fas fa-heart fs-12 text-hearth"></i> by
+                                              <a class="fw-500"
+                                                  href="https://themeforest.net/user/fantasythemes/portfolio"
+                                                  target="_blank" rel="noopener noreferrer">FantasyThemes</a>. Powered by
+                                              <a class="fw-500" href="#">WordPress</a>.</small></p>
+                                  </div>
+                              </div>
+                              <div class="clear">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- ========== END SIDEMENU ========== -->
+  
+  
+      <!-- Login / Register -->
+      <div class="modal fade" id="loginRegisterModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content bg-white border-0 overflow-hidden">
+                  <div class="row gutter-0 p-0">
+                      <div class="col-12 col-lg-6 d-none d-lg-block overflow-hidden">
+  
+                          <div class="ft-event-banner event_banner_class_5e9d4dc0f2b92">
+                              <div class="ft-event-banner-inner">
+                                  <h5 class="text-muted-alt text-center mb-0">Dec 26</h5>
+                                  <h3 class="text-center lh-1-5 mt-4 mb-4"><a class="banner-link"
+                                          href="event.html">Cirque du Soleil Kurios</a></h3>
+                                  <span class="fw-500 text-muted-alt d-inline-block text-center mb-6">Grand
+                                      Chapiteau</span>
+                                  <div class="d-flex justify-content-center">
+                                      <span class="badge badge-light px-3 py-2 fw-500">$49</span>
+                                  </div>
+                                  <span class="d-flex- justify-content-center d-none">
+                                      <a class="btn btn-sm btn-danger w-auto px-5"
+                                          href="event.html">
+                                          <span>Details</span>
+                                          <i class="fe fe-arrow-right ml-3 mr-0"></i>
+                                      </a>
+                                  </span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-12 col-lg-6">
+  
+                          <div class="d-block px-8 pb-8 pt-6">
+  
+                              <div id="login" class="w-100">
+  
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                  </button>
+  
+                                  <h4>Sign in</h4>
+  
+                                  <div id="royaltickets_account_login_errors" class="alert alert-danger"></div>
+  
+                                  <form id="royaltickets_login_form" class="border-bottom border-muted pb-5"
+                                      action=""
+                                      method="post">
+  
+                                      <fieldset class="input">
+                                          <div class="input-group mb-4">
+                                              <div class="input-group-prepend">
+                                                  <div class="input-group-text px-4"><i class="fe fe-user"
+                                                          aria-hidden="true"></i></div>
+                                              </div>
+                                              <input type="text" class="form-control required"
+                                                  id="royaltickets_user_login" name="royaltickets_user_login"
+                                                  placeholder="Username">
+                                          </div>
+                                      </fieldset>
+  
+                                      <fieldset class="input mb-4">
+                                          <div class="input-group mb-2">
+                                              <div class="input-group-prepend">
+                                                  <div class="input-group-text px-4"><i class="fe fe-lock"
+                                                          aria-hidden="true"></i></div>
+                                              </div>
+                                              <input name="royaltickets_user_pass" id="royaltickets_user_pass"
+                                                  class="form-control required" type="password" placeholder="Password">
+                                          </div>
+                                      </fieldset>
+  
+                                      <fieldset>
+                                          <input type="hidden" name="action" value="royaltickets_ajax_login">
+                                          <input type="hidden" id="royaltickets_ajax_login_nonce"
+                                              name="royaltickets_ajax_login_nonce" value="4140ff743b" /><input
+                                              type="hidden" name="_wp_http_referer" value="/demo07/" />
+                                          <div class="d-flex justify-content-between align-items-center mb-4">
+  
+                                              <div class="remember-checkbox mt-4">
+                                                  <label>
+                                                      <input name="rememberme" type="checkbox" value="">
+                                                      <span class="cr"><i class="fa fa-check"
+                                                              aria-hidden="true"></i></span>
+                                                      Remember me
+                                                  </label>
+                                              </div>
+  
+                                              <button class="btn btn-sm rounded lift btn-danger fw-500 text-uppercase"
+                                                  id="royaltickets_login_submit" type="submit" value="Login">
+                                                  <i id="login-progress"
+                                                      class="fa fa-spinner fa-spin fa-fw mr-2"></i>Login
+                                              </button>
+                                          </div>
+                                      </fieldset>
+  
+                                      <p class="royaltickets-lost-password-wrapper pb-0">
+                                          <small><a class="royaltickets-registration" href="#">Register now</a></small>
+                                          <small class="float-right"><a class="royaltickets-lost-password text-muted"
+                                                  href="#" title="Forgot password?">Lost your password?</a></small>
+                                      </p>
+                                  </form>
+  
+                                  <style type="text/css">
+                                      .wp-social-login-connect-with {}
+  
+                                      .wp-social-login-provider-list {}
+  
+                                      .wp-social-login-provider-list a {}
+  
+                                      .wp-social-login-provider-list img {}
+  
+                                      .wsl_connect_with_provider {}
+                                  </style>
+  
+                                  <div class="wp-social-login-widget">
+  
+                                      <div class="wp-social-login-connect-with">Connect with:</div>
+  
+                                      <div class="wp-social-login-provider-list">
+  
+                                          <a rel="nofollow"
+                                              href=""
+                                              title="Connect with Facebook"
+                                              class="wp-social-login-provider wp-social-login-provider-facebook"
+                                              data-provider="Facebook">
+                                              <img alt="Facebook" title="Connect with Facebook"
+                                                  src="../src/images/icons/facebook.png" />
+                                          </a>
+  
+                                          <a rel="nofollow"
+                                              href=""
+                                              title="Connect with Google"
+                                              class="wp-social-login-provider wp-social-login-provider-google"
+                                              data-provider="Google">
+                                              <img alt="Google" title="Connect with Google"
+                                                  src="../src/images/icons/google.png" />
+                                          </a>
+  
+                                          <a rel="nofollow"
+                                              href=""
+                                              title="Connect with Twitter"
+                                              class="wp-social-login-provider wp-social-login-provider-twitter"
+                                              data-provider="Twitter">
+                                              <img alt="Twitter" title="Connect with Twitter"
+                                                  src="../src/images/icons/twitter.png" />
+                                          </a>
+  
+                                      </div>
+  
+                                      <div class="wp-social-login-widget-clearing"></div>
+  
+                                  </div>
+  
+  
+                                  <!-- wsl_render_auth_widget -->
+  
+  
+                                  <!-- wsl_render_auth_widget -->
+  
+                              </div>
+  
+                              <div id="register" class="w-100">
+  
+                                  <h4>Create an account</h4>
+  
+  
+                                  <p>Registration has been disabled.</p>
+  
+  
+                              </div>
+  
+                              <div id="lost-password" class="w-100">
+  
+                                  <h4>Lost Password?</h4>
+                                  <p>Enter your email address and we&#039;ll send you a new password..</p>
+  
+                                  <div id="royaltickets_account_reset_errors" class="alert alert-danger"></div>
+  
+                                  <form id="lostpasswordform" class="border-bottom border-muted pb-5"
+                                      action="https://royaltickets.fantasythemes.net/demo07/wp-admin/admin-ajax.php"
+                                      method="post">
+  
+                                      <fieldset class="input mb-4">
+  
+                                          <div class="input-group mb-2">
+                                              <div class="input-group-prepend">
+                                                  <div class="input-group-text px-4"><i class="fe fe-at-sign"
+                                                          aria-hidden="true"></i></div>
+                                              </div>
+                                              <input name="user_login" id="user_login" class="form-control required"
+                                                  type="email" placeholder="Email">
+                                          </div>
+  
+                                      </fieldset>
+  
+                                      <input type="hidden" name="action" value="royaltickets_reset_password">
+                                      <input type="hidden" id="royaltickets_reset_password_nonce"
+                                          name="royaltickets_reset_password_nonce" value="ac541691fc" /><input
+                                          type="hidden" name="_wp_http_referer" value="/demo07/" />
+                                      <a href="#" id="royaltickets_reset_submit"
+                                          class="btn btn-sm rounded lift btn-danger fw-500 text-uppercase w-100">
+                                          <i id="reset-progress" class="fa fa-spinner fa-spin fa-fw mr-2"></i>Get New
+                                          Password
+                                      </a>
+                                  </form>
+  
+                                  <p class="mt-4 pb-0">If remembered password go back to <a
+                                          class="royaltickets-back-login" href="#">login</a>.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- End Login / Register -->
+  
+      
+      <div class="preloader">
+          <div class="preloader-inner">
+              <svg version="1.1" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" fill="#f4f4f4"
+                  xml:space="preserve">
+                  <path
+                      d="M44.3,3.2C40.7,0.7,34.7,0.1,25,0c0,0,0,0,0,0c0,0,0,0,0,0C15.3,0.1,9.3,0.7,5.7,3.2C1,6.5,0.1,12.7,0,25.1
+                      C0.2,45.4,2.6,49.4,20.4,50c0,0,3.7,0,4.6,0s4.6,0,4.6,0c17.7-0.6,20.1-4.6,20.4-24.9C49.9,12.7,49,6.5,44.3,3.2z">
+                  </path>
+              </svg>
+              <svg class="preloader-icon ft-spin" width="22" height="22" viewBox="0 0 22 22" fill="#24262b"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                      d="M0 11.275V11V10.725C0.165 4.785 5.005 0 11 0C14.1075 0 16.9125 1.2925 18.92 3.355L22 0.275V8.525H21.725H18.865H13.75L16.9675 5.3075C15.455 3.74 13.3375 2.75 11 2.75C6.4625 2.75 2.75 6.435 2.75 11C2.75 11.385 2.7775 11.7425 2.8325 12.1H0.55H0.055H0V11.275ZM22 11.275C21.835 17.215 16.9675 22 11 22C7.8925 22 5.0875 20.7075 3.08 18.645L0 21.725V13.475H0.275H3.135H8.25L5.0325 16.6925C6.545 18.26 8.6625 19.25 11 19.25C15.5375 19.25 19.25 15.565 19.25 11C19.25 10.615 19.2225 10.2575 19.1675 9.9H21.45H21.945H22V10.725V11.275Z">
+                  </path>
+              </svg>
+          </div>
+      </div>
+  
+      <section class="section-header menu-style-fixed menu-color-light">
+          <div id="header" class="sticky-header visible-header">
+              <div class="header-top">
+                  <div class="container-wide">
+                      <div class="row px-lg-4">
+                          <div class="col-12 d-flex justify-content-between">
+                              <div class="header-info-left d-inline-flex align-items-center py-3">
+                                  <span class="d-flex align-items-center fs-14">
+                                      <i class="fe fe-calendar mr-3 opacity_50 fs-90 align-middle"></i>
+                                      <div class="d-none">
+                                          <div id="offset">0</div>
+                                          <div id="date-format">F j, Y</div>
+                                          <div id="time-format">g:i a</div>
+                                          <div id="current-time">April 20, 2020 7:22 am</div>
+                                          <input type="hidden" id="final_date">
+                                      </div>
+                                      <span class="date_and_time"></span>
+                                  </span>
+                                  <span class="px-4 fs-6 opacity_30 lh-1"><i class="fas fa-circle"></i></span>
+                                  <!--Header office phone-->
+                                  <span class="d-flex align-items-center fs-14">
+                                      <i class="fe fe-phone mr-3 opacity_50 fs-90 align-middle"></i>
+                                      <span><a href="tel:(123)456-7890">(123) 456-7890</a></span>
+                                  </span>
+                              </div>
+  
+                              <div class="d-inline-flex">
+  
+                                  <ul class="main-menu top-menu ml-auto">
+  
+                                      <li class="menu-item menu-social-links">
+                                          <a href="#" class="external align-items-center d-flex"><i
+                                                  class="fab fa-facebook-f"></i></a>
+                                      </li>
+  
+                                      <li class="menu-item menu-social-links">
+                                          <a href="#" class="external align-items-center d-flex"><i
+                                                  class="fab fa-twitter"></i></a>
+                                      </li>
+  
+                                      <li class="menu-item menu-social-links">
+                                          <a href="#" class="external align-items-center d-flex"><i
+                                                  class="fab fa-instagram"></i></a>
+                                      </li>
+  
+                                      <li class="menu-item menu-social-links">
+                                          <a href="#" class="external align-items-center d-flex"><i
+                                                  class="fab fa-youtube"></i></a>
+                                      </li>
+  
+  
+                                      <li class="menu-login-register-button menu-item ml-4">
+                                          <a class="login-button" href="#" data-toggle="modal"
+                                              data-target="#loginRegisterModal"><i class="fas fa-sign-in-alt"
+                                                  aria-hidden="true"></i> Login/Register</a>
+                                      </li>
+                                  </ul>
+  
+                              </div>
+  
+                          </div>
+  
+                      </div>
+  
+                  </div>
+  
+              </div>
+  
+              <div class="header-main">
+                  <div class="container-wide">
+                      <div class="d-flex justify-content-between align-items-center h-100 position-relative px-lg-4">
+                          <!--Logo-->
+                          <div class="logo-main">
+                              <a class="logo-wrapper logo-dark" href="index.html">
+                                  <img src='../src/images/icons/logo-dark.svg' alt='Logo'></a>
+                              <a class="logo-wrapper logo-light" href="index.html">
+                                  <img src='../src/images/icons/logo-light.svg' alt='Logo'></a>
+                          </div>
+                          <!--Logo-->
+  
+                          <!--Header sidebar menu-->
+                          <div class="royaltickets-menu-wrapper">
+                              <a href="#" class="royaltickets-trigger icon-mobile-menu mobile-menu">
+                                  <span class="icon-wrap royaltickets-middle-line"></span>
+                                  <span class="icon-wrap royaltickets-top-line"></span>
+                                  <span class="icon-wrap royaltickets-bottom-line"></span>
+                              </a>
+                          </div>
+  
+                          <div class="main-menu-wrapper">
+                              <ul class="main-menu">
+                                  <li
+                                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6348 current_page_item    ft-menu-item-6685   ft-menu-width-default  ft-menu-position-default ">
+                                      <a class="nav-link menu-button-6685" href="index.html"><span
+                                              class="">Home</span></a></li>
+                                  <li
+                                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children    ft-menu-item-6662   ft-menu-width-default  ft-menu-position-default ">
+                                      <a class="nav-link menu-button-6662" href="events.html"><span
+                                              class="">Events</span></a>
+                                      <ul class="sub-menu">
+                                          <li
+                                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children    ft-menu-item-6663   ft-menu-width-  ft-menu-position- ">
+                                              <a class="nav-link menu-button-6663" href="#"><span class="">Categories</span></a>
+                                              <ul class="sub-menu">
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-page    ft-menu-item-6670   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6670"
+                                                          href="events..html"><span class="">Simple</span></a>
+                                                  </li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-page    ft-menu-item-6671   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6671"
+                                                          href="events..html"><span class="">Simple
+                                                              Wide</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-page    ft-menu-item-6664   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6664"
+                                                          href="events..html"><span class="">Metro
+                                                              Style</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-page    ft-menu-item-6665   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6665"
+                                                          href="events..html"><span class="">Metro
+                                                              Wide</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-page    ft-menu-item-6666   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6666"
+                                                          href="events..html"><span class="">No
+                                                              Gutter</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-page    ft-menu-item-6669   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6669"
+                                                          href="events..html"><span class="">No Gutter
+                                                              Wide</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-page    ft-menu-item-6667   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6667"
+                                                          href="events..html"><span class="">No
+                                                              Gutter Metro</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-page    ft-menu-item-6668   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6668"
+                                                          href="events..html"><span class="">No Gutter
+                                                              Metro Wide</span></a></li>
+                                              </ul>
+                                          </li>
+                                          <li
+                                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children    ft-menu-item-6672   ft-menu-width-  ft-menu-position- ">
+                                              <a class="nav-link menu-button-6672" href="#"><span class="">Venues</span></a>
+                                              <ul class="sub-menu">
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-event    ft-menu-item-6673   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6673"
+                                                          href="event.html"><span class="">IT
+                                                              Conference</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-event    ft-menu-item-6674   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6674"
+                                                          href="event.html"><span
+                                                              class="">Concert</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-event    ft-menu-item-6675   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6675"
+                                                          href="event.html"><span
+                                                              class="">Festival</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-event    ft-menu-item-6676   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6676"
+                                                          href="event.html"><span
+                                                              class="">Family</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-event    ft-menu-item-6677   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6677"
+                                                          href="event.html"><span
+                                                              class="">Opera</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-event    ft-menu-item-6678   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6678"
+                                                          href="event.html"><span
+                                                              class="">Cirque</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-post_type menu-item-object-event    ft-menu-item-6679   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6679"
+                                                          href="event.html"><span
+                                                              class="">Ballet</span></a></li>
+                                              </ul>
+                                          </li>
+                                          <li
+                                              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children    ft-menu-item-6680   ft-menu-width-  ft-menu-position- ">
+                                              <a class="nav-link menu-button-6680" href="#"><span class="">Search By</span></a>
+                                              <ul class="sub-menu">
+                                                  <li
+                                                      class="menu-item menu-item-type-taxonomy menu-item-object-event_category    ft-menu-item-6681   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6681"
+                                                          href="event-category/arts-theater/index.html"><span
+                                                              class="">Category</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-taxonomy menu-item-object-event_city    ft-menu-item-6682   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6682"
+                                                          href="event-city/brooklyn/index.html"><span
+                                                              class="">City</span></a></li>
+                                                  <li
+                                                      class="menu-item menu-item-type-taxonomy menu-item-object-event_place    ft-menu-item-6683   ft-menu-width-  ft-menu-position- ">
+                                                      <a class="nav-link menu-button-6683"
+                                                          href="event-venue/grand-chapiteau/index.html"><span
+                                                              class="">Venue</span></a></li>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                  </li>
+                                  <li
+                                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-has-mega-menu mega-menu-id-5384    ft-menu-item-5386   ft-menu-width-default  ft-menu-position-default ">
+                                      <a class="nav-link menu-button-5386" href="#"><span class="">Features</span></a>
+                                      <ul class="sub-menu ft-mega-menu">
+                                          <div
+                                              class="vc_row wpb_row vc_row-fluid vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
+                                              <div
+                                                  class="wpb_column vc_column_container vc_col-sm-6 vc_hidden-sm vc_hidden-xs vc_col-has-fill">
+                                                  <div class="vc_column-inner vc_custom_1555072910669">
+                                                      <div class="wpb_wrapper">
+                                                          <div
+                                                              class="ft-event-banner  event_banner_class_5e9d4dc105cfa px-lg-10">
+                                                              <div class="ft-event-banner-inner">
+                                                                  <h5 class="text-white opacity_70 text-center mb-0">Aug
+                                                                      28</h5>
+                                                                  <h2 class="text-center lh-1-5 mt-4 mb-4"><a
+                                                                          class="banner-link"
+                                                                          href="event.html">Kenny G</a></h2>
+                                                                  <span
+                                                                      class="fw-500 text-white opacity_70 d-inline-block text-center mb-6">Majestic
+                                                                      Theatre</span>
+                                                                  <div class="d-flex justify-content-center">
+                                                                      <span
+                                                                          class="badge badge-light px-3 py-2 fw-500">$120</span>
+                                                                  </div>
+                                                                  <span class="justify-content-center d-none">
+                                                                      <a class="btn btn-sm btn-danger w-auto px-5"
+                                                                          href="event.html">
+                                                                          <span>Details</span>
+                                                                          <i class="fe fe-arrow-right ml-3 mr-0"></i>
+                                                                      </a>
+                                                                  </span>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                  <div class="vc_column-inner ">
+                                                      <div class="wpb_wrapper">
+                                                          <div
+                                                              class="vc_row wpb_row vc_inner vc_row-fluid pl-lg-4 pt-lg-7 pr-lg-8 vc_custom_1585473782285">
+                                                              <div class="wpb_column vc_column_container vc_col-sm-3">
+                                                                  <div class="vc_column-inner">
+                                                                      <div class="wpb_wrapper">
+                                                                          <div
+                                                                              class="vc_wp_custommenu wpb_content_element">
+                                                                              <div class="widget widget_nav_menu">
+                                                                                  <h2 class="widgettitle">Utility Pages
+                                                                                  </h2>
+                                                                                  <div
+                                                                                      class="menu-utility-pages-container">
+                                                                                      <ul id="menu-utility-pages"
+                                                                                          class="menu">
+                                                                                          
+                                                                                          <li id="menu-item-6102"
+                                                                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6102">
+                                                                                              <a
+                                                                                                  href="events.html">Events
+                                                                                                  Categories</a></li>
+                                                                                          <li id="menu-item-6106"
+                                                                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6106">
+                                                                                              <a
+                                                                                                  href="events.html">Events
+                                                                                                  Venues</a></li>
+                                                                                          <li id="menu-item-6143"
+                                                                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6143">
+                                                                                              <a
+                                                                                                  href="about-us.html">About
+                                                                                                  Us</a></li>
+                                                                                          <li id="menu-item-6095"
+                                                                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6095">
+                                                                                              <a
+                                                                                                  href="contact-us.html">Contact
+                                                                                                  Us</a></li>
+                                                                                    
+                                                                                      </ul>
+                                                                                  </div>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                              <div class="wpb_column vc_column_container vc_col-sm-3">
+                                                                  <div class="vc_column-inner">
+                                                                      <div class="wpb_wrapper">
+                                                                          <div
+                                                                              class="vc_wp_custommenu wpb_content_element">
+                                                                              <div class="widget widget_nav_menu">
+                                                                                  <h2 class="widgettitle">Cinemas</h2>
+                                                                                  <div class="menu-blog-pages-container">
+                                                                                      <ul id="menu-blog-pages"
+                                                                                          class="menu">
+                                                                                          <li id="menu-item-5969"
+                                                                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5969">
+                                                                                              <a
+                                                                                                  href="event.html">Silverbird</a>
+                                                                                          </li>
+                                                                                          <li id="menu-item-6718"
+                                                                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6718">
+                                                                                              <a
+                                                                                                  href="event.html">Viva</a>
+                                                                                          </li>
+                                                                                          <li id="menu-item-6720"
+                                                                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6720">
+                                                                                              <a
+                                                                                                  href="event.html">Diamond</a></li>
+                                                                                         
+                                                                                          
+                                                                                      </ul>
+                                                                                  </div>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                              <div class="wpb_column vc_column_container vc_col-sm-3">
+                                                                  <div class="vc_column-inner">
+                                                                      <div class="wpb_wrapper">
+                                                                          <div
+                                                                              class="vc_wp_custommenu wpb_content_element">
+                                                                              <div class="widget widget_nav_menu">
+                                                                                  <h2 class="widgettitle">Airports</h2>
+                                                                                  <div class="menu-elements-container">
+                                                                                      <ul id="menu-elements" class="menu">
+                                                                                          <li id="menu-item-6161"
+                                                                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6161">
+                                                                                              <a
+                                                                                                  href="event.html">Air Peace</a></li>
+                                                                                          <li id="menu-item-6153"
+                                                                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6153">
+                                                                                              <a
+                                                                                                  href="event.html">Dana</a>
+                                                                                          </li>
+                                                                                          <li id="menu-item-6154"
+                                                                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6154">
+                                                                                              <a
+                                                                                                  href="event.html">British Airlines</a></li>
+                                                                                      </ul>
+                                                                                  </div>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                            
+                                                          </div>
+                                                          <div
+                                                              class="vc_row wpb_row vc_inner vc_row-fluid pl-5 pl-lg-6 pr-lg-8 vc_custom_1585477955929 vc_row-has-fill vc_row-o-equal-height vc_row-o-content-bottom vc_row-flex">
+                                                              <div
+                                                                  class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-xs-12">
+                                                                  <div class="vc_column-inner">
+                                                                      <div class="wpb_wrapper">
+                                                                          <div
+                                                                              class="wpb_text_column wpb_content_element  vc_custom_1585423353337">
+                                                                              <div class="wpb_wrapper">
+                                                                                  <h3 class="widgettitle">Popular
+                                                                                      Events</h3> 
+                                                                                  </div>
+                                                                          </div>
+  
+                                                                          <div class="royaltickets-categories ">
+  
+                                                                              <div class="row">
+  
+                                                                                  <div class="col-12 col-lg-6">
+  
+                                                                                      <a class="py-1 d-block padding-left-link widget-link"
+                                                                                          href="event.html">Box Office</a>
+  
+                                                                                  </div>
+  
+                                                                                  <div class="col-12 col-lg-6">
+  
+                                                                                      <a class="py-1 d-block padding-left-link widget-link"
+                                                                                          href="event.html">Award Night</a>
+  
+                                                                                  </div>
+                                                                              </div>
+  
+                                                                          </div>
+  
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                              <div
+                                                                  class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-xs-12">
+                                                                  <div class="vc_column-inner vc_custom_1585423309817">
+                                                                      <div class="wpb_wrapper">
+                                                                          <div
+                                                                              class="wpb_text_column wpb_content_element  vc_custom_1585423341769">
+                                                                              <div class="wpb_wrapper">
+                                                                                  <h3 class="widgettitle">Popular Venues</h3>
+                                                                              </div>
+                                                                          </div>
+  
+                                                                          <div class="royaltickets-categories ">
+  
+                                                                              <div class="row">
+  
+                                                                                  <div class="col-12 col-lg-6">
+  
+                                                                                      <a class="py-1 d-block padding-left-link widget-link"
+                                                                                          href="event.html">Shoprite, Enugu</a>
+  
+                                                                                  </div>
+                                                                               
+                                                                                  <div class="col-12 col-lg-6">
+  
+                                                                                      <a class="py-1 d-block padding-left-link widget-link"
+                                                                                          href="event.html">Spar, Enugu</a>
+  
+                                                                                  </div>
+  
+                                                                                  <div class="col-12 col-lg-6">
+  
+                                                                                      <a class="py-1 d-block padding-left-link widget-link"
+                                                                                          href="event.html">Silverbird, Lagos</a>
+  
+                                                                                  </div>
+                                                                              </div>
+  
+                                                                          </div>
+  
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+  
+                                      </ul>
+                                  </li>
+                               
+                                  <li
+                                      class="menu-item menu-item-type-post_type menu-item-object-page    ft-menu-item-6094   ft-menu-width-default  ft-menu-position-default ">
+                                      <a class="nav-link menu-button-6094" href="contact-us.html"><span
+                                              class="">Contact Us</span></a></li>
+                                  <li
+                                      class="menu-item menu-item-type-post_type menu-item-object-page   cta-button ft-menu-item-48   ft-menu-width-default  ft-menu-position-default ">
+                                      <a class="nav-link menu-button-48" href="create-event.html"><span
+                                              class="">Create Event</span></a></li>
+  
+                                  <!-- <li class="menu-item">
+                                      <a href="#"
+                                          class="favorite-action-button rounded-menu-button d-inline-flex align-items-center justify-content-center h4 mb-0 fs-20">
+                                          <span class="fe fe-heart align-middle"></span>
+                                      </a>
+                                  </li> -->
+  
+                                  <li class="menu-item">
+                                      <a href="#"
+                                          class="sidebarmenu-action-button rounded-menu-button d-inline-flex align-items-center justify-content-center h4 mb-0 fs-20">
+                                          <span class="fe fe-menu align-middle"></span>
+                                      </a>
+                                  </li>
+  
+                              </ul>
+  
+                          </div>
+  
+                      </div>
+  
+                  </div>
+  
+              </div>
+  
+          </div>
+  
+      </section>
+  
+  
+      <!-- 1. HEADER FILE ENDS HERE-->
+  
+  <!--#endregion Header File-->
+
