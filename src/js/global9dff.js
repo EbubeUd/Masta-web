@@ -410,6 +410,7 @@
         jQuery(document).on('click', '.royaltickets-back-login', function(e){
             e.preventDefault();
             jQuery("#lost-password").slideUp("fast", function() {
+                jQuery("#register").slideUp("fast");
                 jQuery("#login").slideDown("fast");
             });
         });
