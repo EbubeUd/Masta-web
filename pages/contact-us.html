@@ -754,7 +754,6 @@
 
   <!--#endregion main  -->
 
-
 <!--#region Header File-->
       <!-- 1. HEADER FILE STARTS HERE-->
 
@@ -840,12 +839,8 @@
                           <div class="widget widget_text mb-8">
                               <div class="widget-content">
                                   <div class="textwidget">
-                                      <p><small class="text-muted">2020 Copyright © RoyalTickets – Events Booking
-                                              WordPress Theme. Made with <i class="fas fa-heart fs-12 text-hearth"></i> by
-                                              <a class="fw-500"
-                                                  href="https://themeforest.net/user/fantasythemes/portfolio"
-                                                  target="_blank" rel="noopener noreferrer">FantasyThemes</a>. Powered by
-                                              <a class="fw-500" href="#">WordPress</a>.</small></p>
+                                      <p><small class="text-muted">2020 Copyright © Masta Pass
+          </small></p>
                                   </div>
                               </div>
                               <div class="clear">
@@ -868,11 +863,11 @@
   
                           <div class="ft-event-banner event_banner_class_5e9d4dc0f2b92">
                               <div class="ft-event-banner-inner">
-                                  <h5 class="text-muted-alt text-center mb-0">Dec 26</h5>
+                                  <h5 class="text-muted-alt text-center mb-0">Apr 7</h5>
                                   <h3 class="text-center lh-1-5 mt-4 mb-4"><a class="banner-link"
-                                          href="event.html">Cirque du Soleil Kurios</a></h3>
-                                  <span class="fw-500 text-muted-alt d-inline-block text-center mb-6">Grand
-                                      Chapiteau</span>
+                                          href="it-conference.html">Techpoint Inspired</a></h3>
+                                  <span class="fw-500 text-muted-alt d-inline-block text-center mb-6">Pistis Conference Center
+                                      </span>
                                   <div class="d-flex justify-content-center">
                                       <span class="badge badge-light px-3 py-2 fw-500">N5000</span>
                                   </div>
@@ -970,45 +965,6 @@
                                       .wsl_connect_with_provider {}
                                   </style>
   
-                                  <div class="wp-social-login-widget">
-  
-                                      <div class="wp-social-login-connect-with">Connect with:</div>
-  
-                                      <div class="wp-social-login-provider-list">
-  
-                                          <a rel="nofollow"
-                                              href=""
-                                              title="Connect with Facebook"
-                                              class="wp-social-login-provider wp-social-login-provider-facebook"
-                                              data-provider="Facebook">
-                                              <img alt="Facebook" title="Connect with Facebook"
-                                                  src="../src/images/icons/facebook.png" />
-                                          </a>
-  
-                                          <a rel="nofollow"
-                                              href=""
-                                              title="Connect with Google"
-                                              class="wp-social-login-provider wp-social-login-provider-google"
-                                              data-provider="Google">
-                                              <img alt="Google" title="Connect with Google"
-                                                  src="../src/images/icons/google.png" />
-                                          </a>
-  
-                                          <a rel="nofollow"
-                                              href=""
-                                              title="Connect with Twitter"
-                                              class="wp-social-login-provider wp-social-login-provider-twitter"
-                                              data-provider="Twitter">
-                                              <img alt="Twitter" title="Connect with Twitter"
-                                                  src="../src/images/icons/twitter.png" />
-                                          </a>
-  
-                                      </div>
-  
-                                      <div class="wp-social-login-widget-clearing"></div>
-  
-                                  </div>
-  
   
                                   <!-- wsl_render_auth_widget -->
   
@@ -1021,8 +977,75 @@
   
                                   <h4>Create an account</h4>
   
-  
-                                  <p>Registration has been disabled.</p>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+
+                              
+
+                                <div id="royaltickets_account_login_errors" class="alert alert-danger"></div>
+
+                                <form id="royaltickets_login_form" class="border-bottom border-muted pb-5"
+                                    action=""
+                                    method="post">
+
+                                    <fieldset class="input">
+                                        <div class="input-group mb-4">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text px-4"><i class="fe fe-user"
+                                                        aria-hidden="true"></i></div>
+                                            </div>
+                                            <input type="text" class="form-control required"
+                                                id="royaltickets_user_login" name="royaltickets_user_login"
+                                                placeholder="Username">
+                                        </div>
+                                    </fieldset>
+
+                                    <fieldset class="input mb-4">
+                                        <div class="input-group mb-2">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text px-4"><i class="fe fe-lock"
+                                                        aria-hidden="true"></i></div>
+                                            </div>
+                                            <input name="royaltickets_user_pass" id="royaltickets_user_pass"
+                                                class="form-control required" type="password" placeholder="Password">
+                                        </div>
+                                    </fieldset>
+
+                                    <fieldset>
+                                        <input type="hidden" name="action" value="royaltickets_ajax_login">
+                                        <input type="hidden" id="royaltickets_ajax_login_nonce"
+                                            name="royaltickets_ajax_login_nonce" value="4140ff743b" /><input
+                                            type="hidden" name="_wp_http_referer" value="/demo07/" />
+                                        <div class="d-flex justify-content-between align-items-center mb-4">
+
+                                            <div class="remember-checkbox mt-4">
+                                                <label>
+                                                    <input name="rememberme" type="checkbox" value="">
+                                                    <span class="cr"><i class="fa fa-check"
+                                                            aria-hidden="true"></i></span>
+                                                    Remember me
+                                                </label>
+                                            </div>
+
+                                            <button class="btn btn-sm rounded lift btn-danger fw-500 text-uppercase"
+                                                id="royaltickets_login_submit" type="submit" value="Login">
+                                                <i id="login-progress"
+                                                    class="fa fa-spinner fa-spin fa-fw mr-2"></i>Register
+                                            </button>
+                                        </div>
+                                    </fieldset>
+
+                                    <p class="royaltickets-lost-password-wrapper pb-0">
+                                        <small><a
+                                            class="royaltickets-back-login" href="#">Already have an account?</a>.</small>
+
+                                    </p>
+                                </form>
+
+ 
+
+
   
   
                               </div>
@@ -1166,9 +1189,19 @@
                           <!--Logo-->
                           <div class="logo-main">
                               <a class="logo-wrapper logo-dark" href="index.html">
-                                  <img src='../src/images/icons/logo-dark.svg' alt='Logo'></a>
+                                  <img src='../src/images/icons/logo.png' alt='Logo'><span style="display: inline-block;
+                                  float: right;
+                                  line-height: 87px;
+                                  color: rgb(226, 42, 42);
+                                  font-weight: bold;
+                                  font-size: 2rem;">Mastapass</span></a>
                               <a class="logo-wrapper logo-light" href="index.html">
-                                  <img src='../src/images/icons/logo-light.svg' alt='Logo'></a>
+                                  <img src='../src/images/icons/logo-dark.png' alt='Logo'><span style="display: inline-block;
+                                    float: right;
+                                  line-height: 87px;
+                                  color: rgb(240, 186, 186);
+                                  font-weight: bold;
+                                  font-size: 2rem;">Mastapass</span></a>
                           </div>
                           <!--Logo-->
   
@@ -1780,7 +1813,6 @@
 <!--#endregion Contact Us File-->
 
 
-
     <!--#region Footer  File-->
 
 
@@ -1903,10 +1935,10 @@
                         <div class="widget widget_text">
                             <div class="widget-content">
                                 <div class="widget-title-container">
-                                    <h5 class="mb-5 text-uppercase ls-1">About Us</h5>
+                                    <h5 class="mb-5 text-uppercase ls-1">Contact Us</h5>
                                 </div>
                                 <div class="textwidget">
-                                    <p>Master Pass
+                                    <p>MastaPass
                                     </p>
                                     <p class="pb-0"><i class="fe fe-map-pin opacity_60"
                                             style="width: 15px; text-align: center; margin-right: 4px; color: #676767;"></i>
@@ -1993,6 +2025,7 @@
     <!--#endregion Footer File-->
 
 
+
 <!--#region Base File Footer -->
 
 
@@ -2013,7 +2046,7 @@
 
   <style id='royaltickets-custom-style-banner-inline-css' type='text/css'>
       .event_banner_class_5e9d4dc0f2b92 {
-          background-image: url(../images/events/cirque-du-solei-kurios.jpg);
+          background-image: url(../src/images/events/cirque-du-solei-kurios.jpg);
       }
 
 

@@ -863,11 +863,11 @@
   
                           <div class="ft-event-banner event_banner_class_5e9d4dc0f2b92">
                               <div class="ft-event-banner-inner">
-                                  <h5 class="text-muted-alt text-center mb-0">Dec 26</h5>
+                                  <h5 class="text-muted-alt text-center mb-0">Apr 7</h5>
                                   <h3 class="text-center lh-1-5 mt-4 mb-4"><a class="banner-link"
-                                          href="event.html">Cirque du Soleil Kurios</a></h3>
-                                  <span class="fw-500 text-muted-alt d-inline-block text-center mb-6">Grand
-                                      Chapiteau</span>
+                                          href="it-conference.html">Techpoint Inspired</a></h3>
+                                  <span class="fw-500 text-muted-alt d-inline-block text-center mb-6">Pistis Conference Center
+                                      </span>
                                   <div class="d-flex justify-content-center">
                                       <span class="badge badge-light px-3 py-2 fw-500">N5000</span>
                                   </div>
@@ -965,45 +965,6 @@
                                       .wsl_connect_with_provider {}
                                   </style>
   
-                                  <div class="wp-social-login-widget">
-  
-                                      <div class="wp-social-login-connect-with">Connect with:</div>
-  
-                                      <div class="wp-social-login-provider-list">
-  
-                                          <a rel="nofollow"
-                                              href=""
-                                              title="Connect with Facebook"
-                                              class="wp-social-login-provider wp-social-login-provider-facebook"
-                                              data-provider="Facebook">
-                                              <img alt="Facebook" title="Connect with Facebook"
-                                                  src="../src/images/icons/facebook.png" />
-                                          </a>
-  
-                                          <a rel="nofollow"
-                                              href=""
-                                              title="Connect with Google"
-                                              class="wp-social-login-provider wp-social-login-provider-google"
-                                              data-provider="Google">
-                                              <img alt="Google" title="Connect with Google"
-                                                  src="../src/images/icons/google.png" />
-                                          </a>
-  
-                                          <a rel="nofollow"
-                                              href=""
-                                              title="Connect with Twitter"
-                                              class="wp-social-login-provider wp-social-login-provider-twitter"
-                                              data-provider="Twitter">
-                                              <img alt="Twitter" title="Connect with Twitter"
-                                                  src="../src/images/icons/twitter.png" />
-                                          </a>
-  
-                                      </div>
-  
-                                      <div class="wp-social-login-widget-clearing"></div>
-  
-                                  </div>
-  
   
                                   <!-- wsl_render_auth_widget -->
   
@@ -1016,8 +977,75 @@
   
                                   <h4>Create an account</h4>
   
-  
-                                  <p>Registration has been disabled.</p>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+
+                              
+
+                                <div id="royaltickets_account_login_errors" class="alert alert-danger"></div>
+
+                                <form id="royaltickets_login_form" class="border-bottom border-muted pb-5"
+                                    action=""
+                                    method="post">
+
+                                    <fieldset class="input">
+                                        <div class="input-group mb-4">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text px-4"><i class="fe fe-user"
+                                                        aria-hidden="true"></i></div>
+                                            </div>
+                                            <input type="text" class="form-control required"
+                                                id="royaltickets_user_login" name="royaltickets_user_login"
+                                                placeholder="Username">
+                                        </div>
+                                    </fieldset>
+
+                                    <fieldset class="input mb-4">
+                                        <div class="input-group mb-2">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text px-4"><i class="fe fe-lock"
+                                                        aria-hidden="true"></i></div>
+                                            </div>
+                                            <input name="royaltickets_user_pass" id="royaltickets_user_pass"
+                                                class="form-control required" type="password" placeholder="Password">
+                                        </div>
+                                    </fieldset>
+
+                                    <fieldset>
+                                        <input type="hidden" name="action" value="royaltickets_ajax_login">
+                                        <input type="hidden" id="royaltickets_ajax_login_nonce"
+                                            name="royaltickets_ajax_login_nonce" value="4140ff743b" /><input
+                                            type="hidden" name="_wp_http_referer" value="/demo07/" />
+                                        <div class="d-flex justify-content-between align-items-center mb-4">
+
+                                            <div class="remember-checkbox mt-4">
+                                                <label>
+                                                    <input name="rememberme" type="checkbox" value="">
+                                                    <span class="cr"><i class="fa fa-check"
+                                                            aria-hidden="true"></i></span>
+                                                    Remember me
+                                                </label>
+                                            </div>
+
+                                            <button class="btn btn-sm rounded lift btn-danger fw-500 text-uppercase"
+                                                id="royaltickets_login_submit" type="submit" value="Login">
+                                                <i id="login-progress"
+                                                    class="fa fa-spinner fa-spin fa-fw mr-2"></i>Register
+                                            </button>
+                                        </div>
+                                    </fieldset>
+
+                                    <p class="royaltickets-lost-password-wrapper pb-0">
+                                        <small><a
+                                            class="royaltickets-back-login" href="#">Already have an account?</a>.</small>
+
+                                    </p>
+                                </form>
+
+ 
+
+
   
   
                               </div>
@@ -1161,9 +1189,19 @@
                           <!--Logo-->
                           <div class="logo-main">
                               <a class="logo-wrapper logo-dark" href="index.html">
-                                  <img src='../src/images/icons/logo-dark.svg' alt='Logo'></a>
+                                  <img src='../src/images/icons/logo.png' alt='Logo'><span style="display: inline-block;
+                                  float: right;
+                                  line-height: 87px;
+                                  color: rgb(226, 42, 42);
+                                  font-weight: bold;
+                                  font-size: 2rem;">Mastapass</span></a>
                               <a class="logo-wrapper logo-light" href="index.html">
-                                  <img src='../src/images/icons/logo-light.svg' alt='Logo'></a>
+                                  <img src='../src/images/icons/logo-dark.png' alt='Logo'><span style="display: inline-block;
+                                    float: right;
+                                  line-height: 87px;
+                                  color: rgb(240, 186, 186);
+                                  font-weight: bold;
+                                  font-size: 2rem;">Mastapass</span></a>
                           </div>
                           <!--Logo-->
   
@@ -1606,8 +1644,8 @@ background-image: url(../src/images/events/sesame-street-live-3.jpg);
 					<div class="col-md-8 mb-13 mt-8 mt-lg-15">
 
 										
-						<p class="d-none text-red text-uppercase ls-2 text-center pb-3">Conference</p>						<h1 class="royaltickets-heading mb-4 text-white text-center fw-600 mt-8">IT Conference</h1>
-						<p class="text-muted-alt text-center">by <a class="text-red text-uppercase" href="event.html">User 4</a></p>
+						<p class="d-none text-red text-uppercase ls-2 text-center pb-3">Techpoint Inspired</p>						<h1 class="royaltickets-heading mb-4 text-white text-center fw-600 mt-8">Techpoint Inspired</h1>
+						<p class="text-muted-alt text-center">by <a class="text-red text-uppercase" href="event.html">Mastapass</a></p>
 
 					</div>
 
@@ -1654,7 +1692,7 @@ background-image: url(../src/images/events/sesame-street-live-3.jpg);
                 <div class="col-12 col-sm-6 col-lg-4 d-flex">
                     <div class="px-6 py-8 aos-init aos-animate w-100" data-aos="fade-up">
                         <div class="d-inline-block mb-6">
-							<i class="fe fe-dollar-sign text-dark-blue opacity_20 fs-40"></i>
+							<i class="fas fa-ticket-alt text-dark-blue opacity_20 fs-40"></i>
 						</div>
                         <h5 class="text-dark-blue mb-1 fw-400 fs-32">
                         	N5000 - N10000                  	</h5>
@@ -1684,14 +1722,14 @@ background-image: url(../src/images/events/sesame-street-live-3.jpg);
 
 					<div class="col-12 col-md-10">
 				
-						<p class="text-red text-uppercase ls-1 pb-2">IT Conference</p>
+						<p class="text-red text-uppercase ls-1 pb-2">Techpoint</p>
 						<h5 class="font-normal">Two days of design, code, and content.</h5>
 					</div>
 
 										<!-- Event Description -->
 					<div class="col-12 col-md-10 mt-6 mb-10">
 
-						<p>IT Conference is a two-day, single-track, conference about anything and everything. Its main purpose is to provide a stage for IT developers to share experiences and innovations with the local IT community.</p>
+						<p>Techpoint is a two-day, single-track, conference about anything and everything. Its main purpose is to provide a stage for IT developers to share experiences and innovations with the local IT community.</p>
 
 					</div>
 					<!-- Event Description -->
@@ -2192,7 +2230,7 @@ background-image: url(../src/images/events/sesame-street-live-3.jpg);
 						<div class="mb-10 d-inline-block w-100">
 							<h3 class="mb-2 text-uppercase lh-1">Image Gallery</h3>
 							<h4 class="lh-1 fs-18 text-muted mb-0">
-								<em>for</em> IT Conference							</h4>
+								<em>for</em> Techpoint							</h4>
 						</div>
 
 					</div>
@@ -2269,7 +2307,7 @@ background-image: url(../src/images/events/sesame-street-live-3.jpg);
 					<div class="mb-10 d-inline-block w-100">
 						<h3 class="mb-2 text-uppercase lh-1">Tickets</h3>
 						<h4 class="lh-1 fs-18 text-muted mb-0">
-							<em>for</em> IT Conference						</h4>
+							<em>for</em> Techpoint						</h4>
 					</div>
 
 					<div class="table-block dashboard-events-table dashboard-table">
@@ -2592,7 +2630,7 @@ background-image: url(../src/images/events/sesame-street-live-3.jpg);
                                     <h5 class="mb-5 text-uppercase ls-1">Contact Us</h5>
                                 </div>
                                 <div class="textwidget">
-                                    <p>Master Pass
+                                    <p>MastaPass
                                     </p>
                                     <p class="pb-0"><i class="fe fe-map-pin opacity_60"
                                             style="width: 15px; text-align: center; margin-right: 4px; color: #676767;"></i>
@@ -2700,7 +2738,7 @@ background-image: url(../src/images/events/sesame-street-live-3.jpg);
 
     <style id='royaltickets-custom-style-banner-inline-css' type='text/css'>
         .event_banner_class_5e9d4dc0f2b92 {
-            background-image: url(../images/events/cirque-du-solei-kurios.jpg);
+            background-image: url(../src/images/events/cirque-du-solei-kurios.jpg);
         }
 
 
