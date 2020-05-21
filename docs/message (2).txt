@@ -1,0 +1,34 @@
+the values that need to be added from sheet list of mine into RCC:
+
+1. ``vehOvSteerMin`` from Line 65 to ``Counter Steering Factor``  .......Done
+2. ``Wheel Type Choise`` need to be changed based on the boolean value of Is ``Driving Axle``. if ``Driving Axle`` of axel 1 is True then ``Wheel Type Choise`` = FWD; if ``Driving Axle`` of axel 2 is True then ``Wheel Type Choise`` = RWD
+3. gear ``Max Ratio`` = ``vehGear1Ratio`` from line 53 / ``Final Drive Ratio``.....................Done
+4. gear ``Max Speed`` = not sure exactly where to get this values because I think this is max speed within a gear before the player shift gear manually. maybe this could be generated from known values?
+5. gear ``Target Speed for Nex Gear`` = ``vehGear1Up`` from line 54. need to use formula that I prepared or similar to convert RPM into km/h.............Done
+6. ``Gear Shifting Delay`` = ``vehShiftTime`` from line 38............Done
+7. ``
+8. ``Clutch Inertia`` = ``vehClutchTime`` from line 39.............Done
+9. ``Maximum Engine Torque`` = ``vehTorqueHigh`` from line 28.........Done
+10. ``Maximum Speed`` = ``vehRPMRZMax`` from line 24, need to be converted with formula from RPM into km/h........Done
+11. ``DownForce`` = ``vehGravity`` from line 82...........Done
+12. ``Lowest Engine RPM`` = ``vehRPMIdle`` from line 25............Done
+13. ``Highest Engine RPM`` = ``vehRPMRZMax`` from line 24...........Done
+14. ``Use Engine Heat`` - turn it on by default..............Done
+15. ``Use Fuel Consumption`` - turn it on by default...............Done
+16. ``ABS`` = boolean value of ``ABS`` from line 150..........Done
+17. ``ESP`` = boolean value of ``ESP`` from line 151...........Done
+18. I noticed that some high cars (trucks mostly) are rolling on the side on turn, that's because of incorrect suspension.
+in the https://docs.google.com/spreadsheets/d/1KKeEjqPNuUhzmRefIdXfxEQEJ1qIeCGy1U3FB2XDV3Q/edit?usp=sharing there's a value called ``Suspension stiffness`` at line 89 for axel 1, please use the value like so:
+``Front Suspension Spring`` = ``Suspension stiffness of Axel 1`% of 100000............Done
+``Front Suspension Damping`` = (``Suspension stiffness of Axel 1``% of 10000)/2.........Done
+``Back Suspension Spring`` = ``Suspension stiffness of Axel 2`% of 100000............Done
+``Back Suspension Damping`` = (``Suspension stiffness of Axel 2``% of 10000)/2...........Done
+
+also I repeat here what I mentioned earlier today, to have all in place
+
+1. in Mafia game when you drive forward and then press Back (not break) all the wheels are blocking till full stop, then wheels unblocking, gear shifts to revers with sound and car start revers drive. same with driving back
+can you add on/off option to RCC ui name like ``Block Wheels Drive Negative`` to represent same behavior?
+right now wheels not blocking but they are breaking slowly
+2. fordHOT car rims is like not moving with wheel
+3. for some odd reason when I rotate camera like this its pivot is jumping back and force from the car center to the hood
+4. some cars can't reverse for some reasons.................Done
