@@ -24533,7 +24533,7 @@ body.hide-footer .royaltickets-page-footer {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(43,4,125,.9);
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 .overlay_bg_dark:after {
