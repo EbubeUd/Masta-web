@@ -1,4 +1,4 @@
-const API_publicKey = "FLWPUBK_TEST-f3cfe655f28dffd1f1e1ad8f97b5bcbb-X";
+const API_publicKey = "FLWPUBK-47f659e67f89a4964e121e4c4e052f7c-X";
 
 function payWithRave(email, phone, reference, amount, cbFunction) {
     var x = getpaidSetup({
