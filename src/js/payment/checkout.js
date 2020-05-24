@@ -36,5 +36,5 @@ function sendEmail(email) {
 }
 
 function downloadTicket(){
-    window.location.href = "../docs/ticket-starboy.pdf";
+    window.location.href = "../docs/tickets.pdf";
 }
