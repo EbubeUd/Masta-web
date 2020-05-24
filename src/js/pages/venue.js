@@ -31,8 +31,11 @@ domReady(function(){
                 case "arcadian":
                 return "Arcadian Lounge";
                 case "silverbird":
-                    "Silverbird Cinema";
-                    break;
+                    return "Silverbird Cinema";
+                case "transcorp":
+                    return "Transcorp Hilton"
+                 case "theater":
+                     return "National Theater";
             }
         }
     }

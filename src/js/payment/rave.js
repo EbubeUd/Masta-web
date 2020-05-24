@@ -14,6 +14,8 @@ function payWithRave(email, phone, reference, amount, cbFunction) {
         }],
         onclose: function() {},
         callback: function(response) {
+            sendEmail(email);
+            cbFunction();
             var txref = response.data.txRef; // collect txRef returned and pass to a                    server page to complete status check.
             console.log("This is the response returned after a charge", response);
             if (
@@ -21,7 +23,7 @@ function payWithRave(email, phone, reference, amount, cbFunction) {
                 response.data.chargeResponseCode == "0" || response.data.data.responsecode === "0" 
                 || response.data.data.responsecode === "00"
             ) {
-                cbFunction();
+               
                 //var event = $.Event('click');
                 //var doc = $("#download-ticket-button").trigger(event);
                 console.log("Done2");
@@ -34,3 +36,5 @@ function payWithRave(email, phone, reference, amount, cbFunction) {
         }
     });
 }
+
+
