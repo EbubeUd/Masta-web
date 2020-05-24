@@ -114,17 +114,7 @@
             margin-bottom: 60px !important;
         }
     </style>
-    <script data-cfasync='false'>
-        window.$crisp = [];
-        CRISP_RUNTIME_CONFIG = {
-            locale: 'en'
-        };
-        CRISP_WEBSITE_ID = '2e8eda11-2013-4b9f-9c5e-b1e90896151e'; (function () {
-            d = document; s = d.createElement('script');
-            s.src = '../src/js/l.js';
-            s.async = 1; d.getElementsByTagName('head')[0].appendChild(s);
-        })();</script>
-        
+
     <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
 
         <!--Consider to remove-->
@@ -1891,27 +1881,50 @@
 
 <!--Modal-->
 <!-- Button trigger modal -->
-<button type="button" style="display:none"  data-toggle="modal" data-target="#exampleModalCenter" id="download-ticket-button">
+<button type="button" style="display:none"  data-toggle="modal" data-target="#exampleModalCenter" id="download-ticket-button" >
+    Modal
   </button>
-  
-  <!-- Ticket Download Modal -->
-  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter"  tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Your payment was successful</h5>
+      <div class="modal-content" style="border-radius: 3%;
+      background-color: #fbad18;
+      background-image: url(../src/images/backgrounds/card.png);
+      background-size: cover;">
+        <div class="modal-header" style="border-bottom:0px" style="border-bottom: 0px;
+        margin: auto;
+        /* padding-top: 109px; */
+        text-shadow: 6px 3px 20px black;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 74px;">
+            <h5 class="modal-title" id="exampleModalLongTitle" Style="    Color: white;
+            font-weight: bold;
+            text-align: center;
+            font-size: 2rem; text-shadow: 1px 1px 18px #2967c9">Your payment was successful!</h5>
+
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          Will you like to download the ticket now?
-        </div>
-        <div class="modal-footer">
-            <form method="get" action="../docs/ticket.pdf">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-          <button  class="btn btn-primary" type="submit">Yes Please</button>
-        </form>
+            <h5 class="modal-title text-center" id="exampleModalLongTitle" style="color: #072aa0; font-size:1rem;" >Will you like to download your ticket now?</h5>
+
+                </div>
+        <div class="modal-footer" style="border-top:1px dashed #062aa0">
+  
+          <button  class="btn btn-primary" data-dismiss="modal"  style="padding: 5px;
+          background-color: white;
+          color: #1d2155;
+          font-weight: 500;">Cancel</button>
+            <button  class="btn btn-primary" data-dismiss="modal" type="submit" style="padding: 5px;
+            background-color: white;
+            color: #1d2155;
+            font-weight: 500;" onclick="downloadTicket()">Yes</button>
+   
         </div>
       </div>
     </div>
