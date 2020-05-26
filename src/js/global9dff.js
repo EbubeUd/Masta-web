@@ -1732,32 +1732,25 @@
 
         $('.royaltickets-qty .count').prop('disabled', true);
         $(document).on('click','.plus',function(){
-            var this_count = $(this).parent();
-            this_count.find('.count').val(parseInt(this_count.find('.count').val()) + 1 );
+            var currentValue = parseInt($('.count').val());
+            currentValue++;
+            $('.count').val(currentValue);
+            $('#ticket-subtotal').text('N' + numberWithCommas(currentValue * 5000));
+            document.getElementById("ticket-subtotal").dataset.amount = currentValue * 5000;
 
-            var this_ticket_id = $(this).parent().attr('data-id');
-            var this_ticket_amount = this_count.find('.count').val();
-            var this_ticket_price = jQuery("#ticket-item-"+this_ticket_id).attr('data-price');
-            var this_ticket_total = this_ticket_price * this_ticket_amount;
-
-            update_ticket_cart_total_submit_ajax();
         });
 
         $(document).on('click','.minus',function(){
-            var this_count = $(this).parent();
-            this_count.find('.count').val(parseInt(this_count.find('.count').val()) - 1 );
-            if (this_count.find('.count').val() == 0) {
-                this_count.find('.count').val(1);
-            }
-
-            var this_ticket_id = $(this).parent().attr('data-id');
-            var this_ticket_amount = this_count.find('.count').val();
-            var this_ticket_price = jQuery("#ticket-item-"+this_ticket_id).attr('data-price');
-            var this_ticket_total = this_ticket_price * this_ticket_amount;
-
-            update_ticket_cart_total_submit_ajax();
-        });
-
+            var currentValue = parseInt($('.count').val());
+             currentValue --;
+             if(currentValue < 1) currentValue = 1;
+             $('.count').val(currentValue);
+             $('#ticket-subtotal').text('N' + numberWithCommas(currentValue * 5000));
+             document.getElementById("ticket-subtotal").dataset.amount = currentValue * 5000;
+            });
+        function numberWithCommas(x) {
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
       
 
         function update_ticket_cart_total( gateway ) {

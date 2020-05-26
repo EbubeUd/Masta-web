@@ -3,8 +3,7 @@ function MakePayment(){
     var email = document.getElementById("ticket-email").value;
     var phone = document.getElementById("ticket-phone").value;
     var reference = document.getElementById("ticket-reference").value;
-    var amount = 5000;
-
+    var amount = parseInt(document.getElementById('ticket-subtotal').dataset.amount);
     payWithRave(email, phone, reference, amount, paymentCallback);
 }
 
